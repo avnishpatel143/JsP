@@ -1,2 +1,34 @@
-this is our first day of the practice session 
-i have practice javascript math functions
+       Vaiables & Data tpye in javascript
+
+Vaiables in JS- 
+"Vaiables are containers for data" (vari- means jo change ho sake that's variable)
+
+
+Vaiable RULES
+
+1 Vaiable names are case sensitive; "a & "A" is different.
+
+2 Only letters, digits, underscore(_) and $ is allowed. (not even space).
+
+3 Only letter, underscore(_) or $ should be 1st character.
+
+4 Resrved words cannot be variable names.
+
+
+
+
+Let, const & var 
+
+var: Vaiable can be re-declaread & updated. A global scope variable.
+
+let: Vaiable cannot be re-declaread but can be updated. A block scope Vaiable.
+
+const: Vaiable cannot be re-declaread or updated. A block scope variable.
+
+
+      Data Types in JS
+      Number, string, Boolean, Undefined, Null, Biglnt, Symbol
+
+1-  Primitive Data Type-(String, List, Array, Object, and Boolean it is fixed)
+
+2- Non-Primitive (Objects)- include Objects, Arrays and Functions and can hold multiple values due to their dynamic behaviour
