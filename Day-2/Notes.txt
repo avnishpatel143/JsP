@@ -1,0 +1,26 @@
+"All power is Within You;
+You Can Do Anything 
+And Everything" - Swami Vikananda
+
+
+
+               Oprators & Condional Statments 
+
+   Comments in JS - Part of Code which is Not executed
+
+Single line Comments //This is the single line comments javascript
+Multi Line Comments /* This is the multi line comments in javascript
+
+
+                     Oprators in JS -
+                  "Used to perform some opration on data"
+
+ Arithmeic Oprators - (Jo maths karne me use hota hai)
+ > +  ,-,*,/
+ > Modulus 
+ > Exponetiaton
+ > Increment 
+ > Decrement 
+
+
+
