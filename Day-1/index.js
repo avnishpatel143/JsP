@@ -1,9 +1,9 @@
-fullName = "Tony stark"
-age = 24;
-radius = 14;
-a = null;
-y = undefined;
-console.log(y);
+// fullName = "Tony stark"
+// age = 24;
+// radius = 14;
+// a = null;
+// y = undefined;
+// console.log(y);
 
 // creating object 
 const profile = { 
