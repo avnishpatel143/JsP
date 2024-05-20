@@ -1,0 +1,348 @@
+Mern Stack
+        DAY 1
+1).About Nodejs
+What is Nodejs
+Why do we use it
+History of Node
+Are javascript and node area same
+a) Nodejs:-
+=> Nodejs is a runtime Environment that allows to use javascript on the server side.It is free to use and open source.
+=> Also it allows Devlopers to use same Language in frontend and backend.
+=> Nodejs allows to run the javascript code outside the browser.
+Runtime Enviornment:-
+=> It is that where the program will be executed.
+Core Technology of Nodejs:-
+=> Nodejs is built on the top of v8 Engine.
+V8 Engine:-
+=> V8 Engine is a javascript Engine which is used by the chromer browser and  developed by the google which is known for its high performance that makes js code execution efficient.
+=> V8 Engine is used for converting the human readable javascript code into machine readable language.And this machine code is ran by the cpu to generate the output.
+b) Why use Nodejs:-
+=> Nodejs is a highly efficient due to its non-blocking architecture which means it uses asynchronous programming
+=> It allows  developer to use same language both in client as well as server side.
+=> Nodejs have lots of package via npm,provides rapid development
+=> Nodejs has a strong community and continuous updates,ensuring its relevance and performance
+=> It is also popular for building Real-time Nodejs application.
+=> It  is a top choice in modern web and server application development due to its speed,scalablility and high performance
+History of Nodejs
+=> Node js was developed by Rayn dahl in 2009.
+=> It provide a runtime environment to execute javascript outside the browser.
+=> Its development and maintenance was led by Rayn Dahl and later sponsored by joyent.
+=>The companies like Amazon,linkdin,Netflix which use Nodejs Technology for scalability and high performance of web application.
+=>Nodejs was initially released on linx and mac os.
+=>it gained popularity very quickly as a platform for building a nodejs Application.
+Nodejs and Javscript are same ??
+No,Javascript and Nodejs is completely different things.Javascript is a language which is primarly used in client side while Nodejs is a runtime environment that allows you to use javascript on server side.
+2.) Basic things you should know before starting
+What are client side and the server side
+Where do we use Nodejs (client side or server side)
+What kind of developer we make with nodejs
+Client side:-
+Client side refers towards the  frontend part which means Everything           that is displayed on the browser such as text,images ,buttons etc all these comes in frontend section which is also called Client side.
+Server side:-
+Sever side refers to the functionality and process that occur on the server which simply means that server side is that part of software web application that runs on the server.Server side code is executed on the web server.
+It handles the request,processes data ,interact with database and send response to the client.
+What do you mean by server ?
+Sever is a computer program that is connected to the internet which accept the request coming from the client side and process on that request after processing it sends a response to the server.
+Where do we use Nodejs ?
+Nodejs is primarily used in Backend that provide runtime Environment to run javscript on the server .
+Also it enables you to create web application,APIs ,microservice and other server related functionalities.
+What kind of developer you become with Nodejs
+We become a backend developer with Nodejs.
+3) Setup nodejs
+   
+Download Nodejs from Google
+What is npm
+Install Npm and node
+Download vs code
+     How to download Nodejs from Google
+=> Simply search Nodejs and go through with Nodejs Official Website.
+=> Install Nodejs LTS verison,LTS means Long time support.
+=> After Install and setup Nodejs You have to open Terminal for checking the successful Installation of Nodejs just writing a command Node –v.If it shows the current Version of Nodejs.Nodejs has successful installed on your system
+     
+ What is npm
+=> It stands for Node package manager.
+=> It comes with Nodejs and used to install the packages for adding more functionality in our project.
+=> with npm ,developers can easily install package needed for their
+projects and it handles the dependency efficiently.
+=> npm provides a command-line-interface for various tasks such as package installation,version management and dependency resolution(solution)
+Install npm and node
+ 
+=> npm install is a command that reads the package.json file and install all the dependencies there.
+=> Example:- The package.json file contain a package like express with their version within a dependency section.running npm install will download and instal alll the dependenice(framework) within the node_module folder
+Download vs code
+=> We need a vs code to write a code for node js server application.
+=> Simply search vs code on google and download and setup properly
+ 
+First script with Node
+Make folder and file
+Write first code and run
+ 
+ Make Folder and File
+Create a folder having some name also create a file of anyname and it should be a js file within a folder.
+Write first code and run
+=> Write some code inside the file you have created and execute on the command line using node
+=> Syntax to run a js file in Nodejs Enviornment -node ./filename
+ Modules in Nodejs
+What is core Module Of Nodejs
+Global module with example
+Non-Global Module
+ Core Module in Nodejs
+    => Core modules are  build-in-module that comes with Nodejs
+   => It provides Essential Functionalities For various tasks
+ Learn about os Module
+=> Os module means operating system which is a in built module of nodejs
+=> It provides lots of function to perform various tasks like to know the system name,to find the detail of usersystem etc.
+ Learn About fs Module
+    Fs stands for file system module
+    It creates a file and write the message Inside by providing some in-build                function
+Global Module
+It is a node package that are installed on your system rather than your project directory so that you can use anywhere in your system without needing require explicitly.
+Example-you want to install package globally simply you have to write npm install -g <package name> Nodemon
+Non-Global Module
+It is that type of module which needs to install in your project directory instead of on your system  and needs to require that module to use in our project explicitly .
+Example:- express js,mongoose,passport etc
+All About Package.json file
+What is package.json file
+How to make it
+Check the file in detail
+Install external package
+What is package.json file
+Package.json file is a file that contain list of all the packages with their version inside the dependency section you have installed locally on your project directory.
+How to make it.
+Firstly,Create a folder
+you can make a package.json file just using the command npm init.This command initlize the npm in your root folder you have made.
+Install external packages
+Now you have to install packages via npm.
+To install the packages locally you have to write a command npm install <packagename>.
+The package you have installed will show in your package.json file inside the dependencies object with their version.
+Small changes for you
+What happened if node_module Folder deleted
+How to push the server code on github provide a correct way
+Deletion of Node_module folder
+=> node_module folder creates when you run the npm install command
+=> It contains all the dependencies (library or framework) that your project relies on.if it deletes,all the dependencies will also deleted
+=> This could result in error when you trying to run your project or perform specific feature of that dependency.
+How to push server code on github
+Step 1=> initilize git in your project directory with this command git init
+Step 2=> stage all the unstaged files with this git add .
+Step 3=> Commit all the files with this git commit -m “message”
+Step 4=> change the branch to main branch
+Step 5=> before pushing code on github you have to create a repo in github
+Step 6 => push all the code on that repo what you have created with thi git remote add url “url link”
+Step 7=> Push all the code with this git push origin main  
+About Nodemon
+What is Nodemon
+How to Install it
+How to use it
+Nodemon
+It is a package which is designed to monitor the Nodejs application file and automatically restart the server when any changes are detected.
+How to install it ?
+Open the vs code terminal and install this package globally with this command npm install -g nodemon After this nodemon is installed on your computer.
+How to use it ?
+Nodemon has been globally installed now you can use this package any of the folder when you will create.
+Command to use this package => npx nodemon ./filename
+Make a simple Api(Application Programming Interface) <= API is a protocol or set of rules which is to be followed.
+Make a server
+Create header and api body
+Create an api with static data
+Put data in another files
+   Make a server
+  => Create a server with the help of http core module that comes with Nodejs.you have to first require the module using which we will create a server
+  => Http core module provide a method of name createServer .It accept a callback function as parameter and this parameter contains two objects Response and Request.
+=> Response is used to send the data to frontend from server ,on the other side,Request is used to accept data when is coming from frontend.
+Create header and api body
+=> create a header part using res.writeHead(<provide-details>)
+=> api body is that from where you send a response to client.it can be json data,html,text etc
+Create an api with static data
+=>Make some data and send the data with the specified endpoint with the help of response.end() <- using this
+Put data in another files 
+Put the data in separate file which is used for sending as a response to the client.
+ show file list
+ Make file in folder
+ use path module
+ get file name and print
+Make file in folder
+=> Create a separate file inside a folder on your project Directory
+use path module
+Path module:-it is a build-in module that comes with Nodejs  provide utility for working with a file or directories(folder)
+get file name and print
+=> You retrieve the file name using basename() function which provide the name of file you want.
+=> This function accept one parameter that is path of the file.
+=> Lastly print the file in console.
+Architecture of Nodejs
+=> The process starts with client that makes a request is handled by the Event queue.
+=> Event queue is present inside the nodejs which collects all the request coming from the client side.and execute the request one by one based on FIFo approch(First in first out).
+=> The association requests is tracked by the Event Loop.
+=> Event loop is at core of its architecture which checks continuously the incoming association of requests which is present inside the event queue.
+Also,Event loops handle the requests which cen be blocking or non-blocking.
+How non-blocking operation is performed by Event loop ?
+=> Non-Blocking request is a asynchronous programming which does not wait for it to complete.and continuous execute the other task Event loops processes the request and directly send to client as a response.
+How Blocking operation is performed by Event loop ?
+=> Blocking request is synchronous programming which execute line by line means it does not execute the next task until the previous task is not completed.
+Event loop handles these type of requests by using thread.
+=>Thread pool is a pool of thread where all the thread present with their separate request.means it assign a worker to make him work
+=>Thread act as woker which process on the blocking request , after completing the task it return back to the pool and send response to the client.
+Due to its non-blocking architecture Nodejs is a highly efficient.
+Know about URL
+Full form of URL
+What is URL
+Example of URL
+Full form of URL
+=> URL stands for Uniform Resource Location
+What is URL
+=> URL is a address which is used to identify the resources such as  web page on the internet.
+=> URL contains various Component like protocol that can be http/https,domain name,path and parameter.
+=> http/https
+  Http is a protocol
+ (protocol means it provide a set of rules which tells the browser how to    communicate with the web server)  that is used for transmitting the data from client to server.And it is not secure for sensitive-information
+ Https:- It is a secure version of http that is encrypts the data transmitted between browser and sever,ensuring data confidentiality and integrity.
+Security Benefits of Https
+HTTPS is secured through SSL Encryption which Protect the sensitive Information such as login credential as well as financial transaction,
+Trust and SEO consideration
+HTTPS is trusted by the users and Search Engine Optimization and having https on your website can improve search engine ranking,user trust and overall security
+Understand the url by taking an example
+https://www.google.com/search?search_query=Nodejs+interview+question
+Understand The term one by one
+Https=> It represent a protcol which tells the browser how to communicate with server.and it points to the secure connection via ssl encryption certificate
+www.google.com => it repesent a Domain-Domain is a user friendly name of ip address of server
+/search=>it represent a path or endpoint where all the resources exist you want to show after hitting this end point
+search_query=> it is a query which is stored inside the object and you can retrieve the query using req.query.search_query.
+About Express js
+What is Express js
+Why express js.
+Why we create a server with Express js instead of Nodejs http core module
+How to install it
+How to make a server using Express js
+Express js
+Express js is a popular framework of nodejs for building a server application and API’s.
+It is written on javascript.
+It provides a set of feature and utilises for handling the task such as routing,parsing request body and middleware.
+It also provides http method for routing.
+It requires less coding which makes the code readable and easier to understand
+Why express js
+Express js is very fast flexible and makes the process easier of server side logic by providing set of features and utilise.
+It require less coding that makes the code readable and easier to understand
+Why we create a server with Express js instead of Nodejs http core module
+There are lots of reason here:-
+With http module,we have to write a code from scratch and we need to get http method and path by req.url .
+With http module,it require hard coding and difficult to understand the code
+With http module,the routing is not available and it makes the routing process very difficult if we use nodejs http core module for making a server
+Process of installing the Express js
+You need to a package name express .
+To install this package you have to run the command npm i express.It install the dependency of this package inside the Node_module folder and mention name with their version in package.json file within the dependency section.
+How to make a server using Express js
+We have to require express from express library and store it in a app variable which act as a handler .
+Define a http method with app.it accept two parameter first is name of endpoint or route as well as one callback which handles the http request coming from this particular http method.
+Send a message as a response using res.send(“message”)
+Lastly you have to define a port where you want to run the server
+Restfull API (Rest Api)
+It stands for Representational state Transfer Application programming Interface.
+It is a standard means it provide a set of rule on which a web service makes.
+It is based on client and server architecture means client and server are separate and communicate over http .This makes the client and server work on independently.
+It respects the http method.. http method have different types to create a endpoint such as get,post,patch,delete.
+GET => To achieve/retrieve the information from server
+POST => Send Something from client to server
+PATCH => To update the data which is stored in database
+Delete => To delete the data stored in database
+Restfull api respect all the http method means you don’t need to give the path like /createuser /getusers,/deleteuser,/updateuser.Restfull api follows the standard that understand all the http methods how its works.
+How to create a Rest Api
+Create a Rest Api with the route like this => /api/users =>res.json()
+Here api represent the send api data to the client in the json format.
+About HTTP
+What is HTTP Header
+Create a Custom Header
+What is HTTP Status Code
+Type of Status Code
+HTTP Header
+It is an additional information which tells  about your request and response object that comes with http request and response.
+Request Header
+It contains all the information about the resources which is requested by the client such as content type ,content length,connection ,connection keep alive,Host.user-Agent etc.
+Response Header
+It contain additional  information about response like its location or about the server providing it.
+Create a custom Header
+You can create a custom header which will contain your custom created data and the data must be represented with placing x before the data creation.
+What is HTTP Status Code.
+It gives the response with some codes have different meaning which define the request has been successfully completed or not.
+There are Five HTTP Status code
+=> 100-199 - Indicates the information response
+=> 200-299 - indicates the successful response
+=> 300-399 - indicates the redirection message
+=> 400-499-  indicates the failure response from client side
+=> 500-599   indicates the failure response from server side
+About Server Side Rendering
+What is Template Engine
+What is Ejs
+How to setup Ejs
+How to render html from server side
+What is the Template Engine
+Template Engine enables you to use static template file in your application.
+At runtime, Template engine replace a variable in the static template file with actual values and convert template into html file sent to the client.
+This Approach Make it easier the design of html page.
+It simple terms, we can say that  create a dynamic HTML page with the help of template engine.
+What is Ejs
+Ejs is a Embedded Javascript that is a Template Engine is used to generate Html page with plain javascript .
+It also helps to embed javascript on the html page.
+How to setup Ejs
+As work with Ejs we need to install ejs by using this command => npm install ejs.
+After installing ejs You have to create a folder name views.
+Go to the main file and setup the ejs with the help this command =>
+app.set(“view engine”,”ejs”)
+app.set(“views”,”./views”)
+How to render html on the server side
+To achieve this , you have to create a file with ejs extension where you will write a ejs code that is very similar to html.
+About Authentication
+What is Authentication
+What is cookies
+What is JWT
+How to Authenticate a user
+Authentication
+It is a process to identify a user with their credentials means recogonised a user with their username and password and this type of Strategy to authenticate a user is called Local-Strategy.
+Cookies
+Cookies is a small data that is created or stored on client side and sent to the client along with reponse.
+Cookies is created by the server which is stored on the browser
+We can get the value of cookie by using req.cookie.<nameofthecookie>
+Cookie is a domain specific that means we can create a cookies on specified domain.
+Cookie has a expiry time which means we can store the cookie with expiry time.After the time is over cookie wiil be deleted.
+What is JWT
+It stands for jsonwebToken that is used to generate a token of user credential in the form of long string.
+Userdata
+{
+  "name": "Harsh",
+  "email": "harsh@gmail.com",
+  "iat": 1715102627
+}
+Decode in JWT TOKEN
+Example eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2giLCJlbWFpbCI6ImhhcnNoQGdtYWlsLmNvbSIsImlhdCI6MTcxNTEwMjYyN30.MaG5Tee4ka-ZG_p2SHw_JO73kqAMbQNqCFteigJ6MEE
+You can decode this  generated token wtth the help of JWT.IO is a website which is used to get a information of user data with the help of this code.
+Also,you must need a secret key to create and verify the jwt token.This secret key is generated by the users on the server.
+How to Authenticate a user
+There are two ways to perform authentication Process
+i)  Statefull Authentication
+ii) Stateless Authentication
+Statefull Authentication
+In this type of authentication we can create a state to maintain  the data in server but this is not a good approach because there are sufficient space in server memory.its make your application slower.
+Stateless Authentication
+In this approach there is no state present in server all the data stored in a browser as a cookie aur as  a header.
+Steps to Authenticate a user
+1) Verify user with the help of username and password
+2) we have to Create a token with the help of JWT.sign({userdata},secretkey) for that user who has completed the login process
+3) Create a cookie with the help of res.cookie(“name of the cookie”,”generated token”)
+4) check cookie the token you have created is generated or not.
+Checking user
+1) check the token is generated or not what if you can access the homepage for that user.
+2) if it is not let user redirect the home page.
+Connect Frontend with Backend
+Collect the data which you want to send to the backend.
+Using fetch we can send data from frontend to backend.It takes two parameter first is backend url where you want to send the data.Ex-feteh(“http://localhost:<portNumber>/endpoint”)
+2nd parameter is an object which contains two three properties which is essential to send with this request object
+Example of creating request object => const <anyname>={Method:”post”,header:{“Content-Type”:”Application/json”},body:JSON.Stringify(<Frontend data>)}
+Body contain only json data that’why we have to convert frontend body object into json data by using JSON.Stringfy
+After that i will show an error.The error will be about cors policy which stand for cors-origin resource sharing that means both the frontend and backend is running at different port number .Example -> Frontend is running at port 4000 and backend is running at port 5000 both are cross-origin and we cannot access the resources of cross origin
+To overcome this problem we have to install a package name cors which is used on the server side to identify the frontend port.
+Way of using cors -> require core and use in complete server using app.use(cors()).
+Create a object which contain three properties ist is origin:<paste url of frontend here>
+2nd is Methods:”paste all the methods which can be accessed by the server”
+Credential that shoule be true
+Example const corsOption variable name must be as it is {origin:”http://localhost:<portnumber where the frontend application is running)”,Methods:”Get,Post,patch,delete”,credential:true}
+   
+ 
