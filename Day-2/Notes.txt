@@ -25,3 +25,13 @@ Multi Line Comments /* This is the multi line comments in javascript
                            20-May-2024
 ---------------------------------------------------------------------------------------------------------------------
 
+ Assignment Oprators- = += -= %= **= 
+
+Comprison Oprators -
+
+  Equal tp      ==                            Equal to Type     ===
+  Not Equal to  !=                            Not Equal to type !==
+
+  >, >=, <, <=
+
+  
