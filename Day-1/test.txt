@@ -32,3 +32,12 @@ const: Vaiable cannot be re-declaread or updated. A block scope variable.
 1-  Primitive Data Type-(String, List, Array, Object, and Boolean it is fixed)
 
 2- Non-Primitive (Objects)- include Objects, Arrays and Functions and can hold multiple values due to their dynamic behaviour
+
+
+
+
+
+
+
+
+
