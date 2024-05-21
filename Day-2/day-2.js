@@ -27,11 +27,18 @@
 
 //Comprison Oprators-
 
-let a = 4;
-let b = 4;
-console.log("!a=", a != b);
+// let a = 4;
+// let b = 4;
+// console.log("!a=", a != b);
 
+//---------------------------------------CodeChamp Basic Question attempt ---------------------------------------------------
 
+var a;
+a = 1234;
+var b;
+b = a;
+a = b;
+console.log(b);
 
 
 
