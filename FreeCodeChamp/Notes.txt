@@ -1,0 +1,31 @@
+Here is the all questions and Answars and solutons
+ of FreeCodeChamp 
+
+ also code are js.js Folder
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+                  Find the Length of a String
+
+You can find the length of a String value by writing .length after the string variable or string literal.
+
+console.log("Alan Peter".length);
+The value 10 would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
+
+For example, if we created a variable const firstName = "Ada", we could find out how long the string Ada is by using the firstName.length property.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                   Use Bracket Notation to Find the First Character in a String
+
+Bracket notation is a way to get a character at a specific index within a string.
+
+Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
+
+For example, the character at index 0 in the word Charles is C. So if const firstName = "Charles", you can get the value of the first letter of the string by using firstName[0].
+
+Example:
+
+const firstName = "Charles";
+const firstLetter = firstName[0];
+firstLetter would have a value of the string C.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
