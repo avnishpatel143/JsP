@@ -39,7 +39,7 @@ Your feedback is valuable! If you encounter any issues, have suggestions for imp
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of the license.
 
 **Author:**
-[Your Name or Username](https://github.com/avnishpatel143)
+[avnishpatel143](https://github.com/avnishpatel143)
 
 **Acknowledgments:**
 Special thanks to all the developers and contributors whose work made this project possible.
