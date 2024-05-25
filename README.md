@@ -43,3 +43,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 **Acknowledgments:**
 Special thanks to all the developers and contributors whose work made this project possible.
+
+
+This is the best of one seris that  i want to make strik for next 90 day's to improve my codeing jerony 
+
