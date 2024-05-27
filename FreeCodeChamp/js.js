@@ -1,4 +1,4 @@
- // Use the .length property to set lastNameLength to the number of characters in lastName.
+// Use the .length property to set lastNameLength to the number of characters in lastName.
 
 // Setup
 let lastNameLength = 0;
@@ -48,15 +48,15 @@ const lastName0 = "Lovelace";
 
 // Only change code below this line
 const lastLetterOfLastName = lastName[lastName0.length - 1]; // Change this line
- 
- console.log(lastLetterOfLastName);   // the output will be =  e
- console.log(lastName);                // the output will be = Lovelace
+
+console.log(lastLetterOfLastName);   // the output will be =  e
+console.log(lastName);                // the output will be = Lovelace
 
 
- // Use bracket notation to find the second-to-last character in the lastName string.
+// Use bracket notation to find the second-to-last character in the lastName string.
 
 
- // Setup
+// Setup
 const lastName3 = "Lovelace";
 
 // Only change code below this line
@@ -65,4 +65,9 @@ const secondToLastLetterOfLastName = lastName[lastName3.length - 2]; // Change t
 console.log(secondToLastLetterOfLastName); // the output will be = c
 
 
+/*  You will need to use the string concatenation operator + to build a new string,
+using the provided variables: myNoun, myAdjective, myVerb, and myAdverb.
+You will then assign the formed string to the wordBlanks variable.
+You should not change the words assigned to the variables.*/
 
+// You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
