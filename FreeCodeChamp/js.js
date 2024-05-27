@@ -71,3 +71,22 @@ You will then assign the formed string to the wordBlanks variable.
 You should not change the words assigned to the variables.*/
 
 // You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+// Only change code above this line
+
+
+
+/*  Modify the new array myArray so that it contains both a string and a number (in that order).
+
+*/
+
+// Only change code below this line
+const myArray = ["aalu", 23,"chana", "apple",45];
+console.log(myArray)
