@@ -90,3 +90,17 @@ const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + my
 // Only change code below this line
 const myArray = ["aalu", 23,"chana", "apple",45];
 console.log(myArray)
+
+
+// Create a nested array called myArray.
+
+// Only change code below this line
+const myArray1 = [["Apple",43], ["Juse",92]];
+console.log(myArray1);
+
+//Create a variable called myData and set it to equal the first value of myArray using bracket notation.
+
+const myArrayA = [50, 60, 70];
+const myData = myArrayA[0]
+
+console.log(myData);  //The output will be =  50 
