@@ -128,8 +128,66 @@ const myArray4 = [["John", 23], ["cat", 2]];
 myArray4.push(["dog",3]);
 console.log(myArray4);
 
+// Use the .pop() function to remove the last item from myArray and assign the popped off value to a new variable, removedFromMyArray.
+
+// Setup
+const myArray6 = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+const removedFromMyArray = myArray6.pop()
+
+console.log(myArray) // the output will be = [ [ 'John', 23 ] ]
+
+console.log(removedFromMyArray) // the output will be = [ [ 'John', 23 ] ] [ 'cat', 2 ]
 
 
+
+// Use the .shift() function to remove the first item from myArray and assign the "shifted off" value to a new variable, removedFromMyArray.
+
+// Setup
+const myArray12 = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+ const removedFromMyArray1 = myArray12.shift();
+
+console.log(myArray); // output will be = [ [ 'dog', 3 ] ]
+
+
+// Add ["Paul", 35] to the beginning of the myArray variable using unshift().
+
+// Setup
+const myArray9 = [["John", 23], ["dog", 3]];
+
+myArray.shift();  // removing the frist array of the variable
+
+// Only change code below this line
+
+myArray9.unshift(["Paul", 35]);
+
+console.log(myArray9); // the output will be = [ [ 'Paul', 35 ], [ 'dog', 3 ] ]
+
+/* 
+Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
+
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
+
+["Chocolate Bar", 15]
+There should be at least 5 sub-arrays in the list.
+
+*/
+
+const myList = [ [ "Apple",20],
+    ["amnan",30],
+    ["Yesh",404],
+    ["Tree",345],
+    ["Juse",34]
+];
+
+console.log(myList); // the output will be = [ [ 'Apple', 20 ],
+ // [ 'amnan', 30 ],
+ // [ 'Yesh', 404 ],
+ // [ 'Tree', 345 ],
+ // [ 'Juse', 34 ] ]
 
 
 
