@@ -117,7 +117,26 @@ console.log(myData);  //The output will be =  50
   const myData0 = myArray0[2][1];
   console.log(myData0) // output will be = 8
 
+// Push ["dog", 3] onto the end of the myArray variable.
 
-  
+
+  // Setup
+const myArray4 = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+
+myArray4.push(["dog",3]);
+console.log(myArray4);
+
+
+
+
+
+
+
+
+
+
+
 
 
