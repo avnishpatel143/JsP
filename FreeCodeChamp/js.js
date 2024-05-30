@@ -192,13 +192,5 @@ console.log(myList); // the output will be = [ [ 'Apple', 20 ],
 
 /* 
 1. Create a function called reusableFunction which prints the string Hi World to the dev console.
-2. Call the function.
-
-/*
-
-
-
-
-
-
+2. Call the function. */
 
