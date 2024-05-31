@@ -9,7 +9,6 @@ console.log(lastName.length)
 lastNameLength = lastName.length
 console.log(lastNameLength)
 
-
 // Use bracket notation to find the first character in the lastName variable and assign it to firstLetterOfLastName.
 // Setup
 let firstLetterOfLastName = "";
@@ -193,4 +192,26 @@ console.log(myList); // the output will be = [ [ 'Apple', 20 ],
 /* 
 1. Create a function called reusableFunction which prints the string Hi World to the dev console.
 2. Call the function. */
+
+function reusableFunction(){
+  console.log("Hi World");
+
+};
+
+reusableFunction()   // output will be = Hi World
+
+
+ /* Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
+Call the function with two numbers as arguments.*/
+    
+function functionWithArgs(num1,num2){
+  console.log(num1 + num2)
+};
+// let num1 = 20;
+// let num2 = 40;
+
+functionWithArgs(10 ,20);  // the output will be = 40
+ 
+
+
 
