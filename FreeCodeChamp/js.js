@@ -213,5 +213,15 @@ function functionWithArgs(num1,num2){
 functionWithArgs(10 ,20);  // the output will be = 40
  
 
+// Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value.
+
+function timesFive(num0){
+  return num0 * 5;
+  
+  }
+  const ans = timesFive(3)
+  
+  console.log(ans); // the output will be =  15
+
 
 
