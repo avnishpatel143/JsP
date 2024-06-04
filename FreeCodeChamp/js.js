@@ -225,3 +225,66 @@ function timesFive(num0){
 
 
 
+// Using let or const, declare a global variable named myGlobal outside of any function. Initialize it with a value of 10.
+
+// Inside function fun1, assign 5 to oopsGlobal without using the var, let or const keywords.
+
+// Declare the myGlobal variable below this line
+let myGlobal =  10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal here
+  oopsGlobal = 5;
+}
+// Only change code above this line
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+
+/* 
+The editor has two console.logs to help you see what is happening. 
+Check the console as you code to see how it changes. 
+Declare a local variable myVar inside myLocalScope and run the tests.
+*/
+
+/*  Note: The console will still display ReferenceError: myVar is not defined, 
+but this will not cause the tests to fail.*/
+
+
+function myLocalScope() {
+  // Only change code below this line
+  let myVar;
+  
+
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
+
+// Add a local variable to myOutfit function to override the value of outerWear with the string sweater.
+
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater";
+
+  // Only change code above this line
+  return outerWear;
+
+}
+myOutfit();
