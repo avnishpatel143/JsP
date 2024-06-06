@@ -288,3 +288,62 @@ function myOutfit() {
 
 }
 myOutfit();
+
+
+
+// Create a function addFive without any arguments. This function adds 5 to the sum variable, but its returned value is undefined.
+
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+// Only change code above this line
+function addFive(){
+  sum = sum + 5;
+}
+addThree();
+addFive();
+
+
+// `processArg` function ko `7` argument ke saath call karo 
+// aur uske return value ko `processed` variable mein assign karo.
+
+// Setup
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+  
+}
+  processed = processArg(7)  // We assign in variable also function and object and more 
+
+// Only change code below this line
+
+processArg();
+
+console.log(processed)  // output will be = 2 
+
+
+// Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+
+// Add the number to the end of the array, then remove the first element of the array.
+
+// The nextInLine function should then return the element that was removed.
+
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  const removedElem =  arr.shift()
+  return removedElem;
+  // Only change code above this line
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
