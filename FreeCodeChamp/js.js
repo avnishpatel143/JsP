@@ -347,3 +347,43 @@ let testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+
+
+// Modify the welcomeToBooleans function so that it returns true instead of false.
+
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+
+// answer : 
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+if(wasThatTrue){
+  return "Yes, that was true";
+}else{
+  return "No, that was false";
+}
+
+
+  // Only change code above this line
+
+}
+
+
+//Use the strict equality operator in the if statement so the function will return the string Equal when val is strictly equal to 7.
+
+// Setup
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
+
+
