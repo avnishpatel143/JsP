@@ -36,8 +36,7 @@ Your feedback is valuable! If you encounter any issues, have suggestions for imp
 - [GitHub](https://github.com/): Hosting for version control and collaboration.
 
 **License:**
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of the license.
-
+   Currently are pending 
 **Author:**
 [avnishpatel143](https://github.com/avnishpatel143)
 
