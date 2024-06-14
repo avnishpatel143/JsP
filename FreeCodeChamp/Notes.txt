@@ -474,7 +474,7 @@ Examples
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                Comparison with the Less Than Operator
+                              Comparison with the Less Than Operator
 
 The less than operator (<) compares the values of two numbers. If the number to the left is less than the number to the right, it returns true. Otherwise, it returns false. Like the equality operator, the less than operator converts data types while comparing.
 
@@ -502,5 +502,27 @@ Examples
   5   <= 5 // true
   3   <= 2 // false
   '8' <= 4 // false
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            
+                         Comparisons with the Logical And Operator
+
+ometimes you will need to test more than one thing at a time. The logical and operator (&&) returns true if and only if the operands to the left and right of it are true.
+
+The same effect could be achieved by nesting an if statement inside another if.
+
+if (num > 5) {
+  if (num < 10) {
+    return "Yes";
+  }
+}
+return "No";
+This code will return Yes if num is greater than 5 and less than 10. The same logic can be written with the logical and operator.
+
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
