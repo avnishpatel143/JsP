@@ -3,8 +3,8 @@ Here is the all questions and Answars and solutons
 
  also code are js.js Folder
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
-                  Find the Length of a String
+  
+                                Find the Length of a String
 
 You can find the length of a String value by writing .length after the string variable or string literal.
 
@@ -14,7 +14,7 @@ The value 10 would be displayed in the console. Note that the space character be
 For example, if we created a variable const firstName = "Ada", we could find out how long the string Ada is by using the firstName.length property.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                   Use Bracket Notation to Find the First Character in a String
+                             Use Bracket Notation to Find the First Character in a String
 
 Bracket notation is a way to get a character at a specific index within a string.
 
@@ -29,7 +29,7 @@ const firstLetter = firstName[0];
 firstLetter would have a value of the string C.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-       In JavaScript, String values are immutable, which means that they cannot be altered once created.
+                  In JavaScript, String values are immutable, which means that they cannot be altered once created.
 
 For example, the following code will produce an error because the letter B in the string Bob cannot be changed to the letter J:
 
@@ -41,7 +41,7 @@ let myStr = "Bob";
 myStr = "Job";
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-              Use Bracket Notation to Find the Nth Character in a String
+                          Use Bracket Notation to Find the Nth Character in a String
 
 You can also use bracket notation to get the character at other positions within a string.
 
@@ -54,7 +54,7 @@ const secondLetterOfFirstName = firstName[1];
 secondLetterOfFirstName would have a value of the string d.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-        Use Bracket Notation to Find the Last Character in a String
+                     Use Bracket Notation to Find the Last Character in a String
 
 In order to get the last letter of a string, you can subtract one from the string's length.
 
@@ -67,7 +67,7 @@ const lastLetter = firstName[firstName.length - 1];
 lastLetter would have a value of the string a
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-Use Bracket Notation to Find the Nth-to-Last Character in a String
+                          Use Bracket Notation to Find the Nth-to-Last Character in a String
 
 You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
@@ -93,7 +93,7 @@ const sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselve
 In this challenge, we provide you with a noun, a verb, an adjective and an adverb. You need to form a complete sentence using words of your choice, along with the words we provide.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Store Multiple Values in one Variable using JavaScript Arrays
+                  Store Multiple Values in one Variable using JavaScript Arrays
 
 With JavaScript array variables, we can store several pieces of data in one place.
 
@@ -101,7 +101,7 @@ You start an array declaration with an opening square bracket, end it with a clo
 
 const sandwich = ["peanut butter", "jelly", "bread"];
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                Nest one Array within Another Array
+                             Nest one Array within Another Array
 
 You can also nest arrays within other arrays, like below:
 
@@ -109,7 +109,7 @@ const teams = [["Bulls", 23], ["White Sox", 45]];
 This is also called a multi-dimensional array.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                  Access Array Data with Indexes
+                              Access Array Data with Indexes
 
 We can access the data inside arrays using indexes.
 
@@ -123,7 +123,7 @@ console.log(array[0]);
 const data = array[1];
 The console.log(array[0]) prints 50, and data has the value 60.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                             Modify Array Data With Indexes
+                               Modify Array Data With Indexes
 
 Unlike strings, the entries of arrays are mutable and can be changed freely, even if the array was declared with const.
 
@@ -136,7 +136,7 @@ ourArray now has the value [15, 40, 30].
 Note: There shouldn't be any spaces between the array name and the square brackets, like array [0]. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                     Access Multi-Dimensional Arrays With Indexes
+                        Access Multi-Dimensional Arrays With Indexes
 
 One way to think of a multi-dimensional array, is as an array of arrays. When you use brackets to access your array, the first set of brackets refers to the entries in the outermost (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
@@ -173,7 +173,7 @@ arr2.push(["happy", "joy"]);
 arr1 now has the value [1, 2, 3, 4, 5] and arr2 has the value ["Stimpson", "J", "cat", ["happy", "joy"]].
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                          Manipulate Arrays With pop Method
+                               Manipulate Arrays With pop Method
 
 Another way to change the data in an array is with the .pop() function.
 
@@ -188,7 +188,7 @@ console.log(threeArr);
 The first console.log will display the value 6, and the second will display the value [1, 4].
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                        Manipulate Arrays With shift Method
+                              Manipulate Arrays With shift Method
 
 pop() always removes the last element of an array. What if you want to remove the first?
 
@@ -202,7 +202,7 @@ removedFromOurArray would have a value of the string Stimpson, and ourArray woul
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                        Manipulate Arrays With unshift Method
+                                 Manipulate Arrays With unshift Method
 
 Not only can you shift elements off of the beginning of an array, you can also unshift elements to the beginning of an array i.e. add elements in front of the array.
 
@@ -216,7 +216,8 @@ ourArray.unshift("Happy");
 After the shift, ourArray would have the value ["J", "cat"]. After the unshift, ourArray would have the value ["Happy", "J", "cat"].
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                 Shopping List
+                                       Shopping List
+
 Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
 
 The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
@@ -226,7 +227,7 @@ There should be at least 5 sub-arrays in the list.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                  Write Reusable JavaScript with Functions
+                                 Write Reusable JavaScript with Functions
 
 In JavaScript, we can divide up our code into reusable parts called functions.
 
@@ -239,7 +240,7 @@ You can call or invoke this function by using its name followed by parentheses, 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                
-               Passing Values to Functions with Arguments
+                             Passing Values to Functions with Arguments
 
 Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "passed") into a function when it is called are known as arguments.
 
@@ -252,7 +253,7 @@ Then we can call testFun like this: testFun("Hello", "World");. We have passed t
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                Return a Value from a Function with Return
+                                      Return a Value from a Function with Return
 
 We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
 
@@ -268,7 +269,7 @@ answer has the value 8.
 plusThree takes an argument for num and returns a value equal to num + 3.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                            Global Scope and Functions
+                                                  Global Scope and Functions
 
 In JavaScript, scope refers to the visibility of variables. Variables which are defined outside of a function block have Global scope. This means, they can be seen everywhere in your JavaScript code.
 
@@ -276,7 +277,7 @@ Variables which are declared without the let or const keywords are automatically
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                             Local Scope and Functions
+                                                 Local Scope and Functions
 
 Variables which are declared within a function, as well as the function parameters, have local scope. That means they are only visible within that function.
 
@@ -293,7 +294,7 @@ The myTest() function call will display the string foo in the console. The conso
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
-                        Global vs. Local Scope in Functions
+                                         Global vs. Local Scope in Functions
 
 It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
@@ -309,7 +310,7 @@ The function myFun will return the string Head because the local version of the 
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                          Assignment with a Returned Value
+                                    Assignment with a Returned Value
 
 If you'll recall from our discussion about Storing Values with the Assignment Operator, everything to the right of the equal sign is resolved before the value is assigned. This means we can take the return value of a function and assign it to a variable.
 
@@ -331,7 +332,7 @@ Calling the sum function with the arguments of 5 and 12 produces a return value 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                   Stand in Line
+                                                   Stand in Line
 
 In Computer Science a queue is an abstract Data Structure where items are kept in order. 
 New items can be added at the back of the queue and old items are taken off from the front of the queue.
@@ -346,7 +347,7 @@ Note: Boolean values are never written with quotes. The strings "true" and "fals
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                       
-                         Use Conditional Logic with If Statements
+                                    Use Conditional Logic with If Statements
 
 
 if statements are used to make decisions in code. The keyword if tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as Boolean conditions and they may only be true or false.
@@ -376,7 +377,7 @@ When test is called with a value of true, the if statement evaluates myCondition
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                 Comparison with the Strict Equality Operator
+                                   Comparison with the Strict Equality Operator
 
 Strict equality (===) is the counterpart to the equality operator (==). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
 
@@ -390,7 +391,7 @@ In the second example, 3 is a Number type and '3' is a String type.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                Practice comparing different values
+                                      Practice comparing different values
 
 In the last two challenges, we learned about the equality operator (==) and the strict equality operator (===). Let's do a quick review and practice using these operators some more.
 
@@ -408,7 +409,85 @@ typeof 3 returns the string number, and typeof '3' returns the string string.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+                                    Comparison with the Inequality Operator
 
-this is only for the strik and nothing
-this is only for the strik and nothing when i am at home only strick
+       The inequality operator (!=) is the opposite of the equality operator.
+       It means not equal and returns false where equality would return true and vice versa. 
+       Like the equality operator, the inequality operator will convert data types of values while comparing.
+
+Examples
+
+1 !=  2    // true
+1 != "1"   // false
+1 != '1'   // false
+1 != true  // false
+0 != false // false
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        
+                              Comparison with the Strict Inequality Operator
+
+
+                The strict inequality operator (!==) is the logical opposite of the strict equality operator. 
+                It means "Strictly Not Equal" and returns false where strict equality would return true and vice versa. 
+                The strict inequality operator will not convert data types.
+
+Examples
+
+3 !==  3  // false
+3 !== '3' // true
+4 !==  3  // true              
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                     Comparison with the Greater Than Operator
+
+The greater than operator (>) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns true. Otherwise, it returns false.
+
+Like the equality operator, the greater than operator will convert data types of values while comparing.
+
+Examples
+
+5   >  3  // true
+7   > '3' // true
+2   >  3  // false
+'1' >  9  // false
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                               Comparison with the Greater Than Or Equal To Operator
+
+The greater than or equal to operator (>=) compares the values of two numbers. 
+If the number to the left is greater than or equal to the number to the right, 
+it returns true. Otherwise, it returns false.
+
+Like the equality operator, the greater than or equal to operator will convert data types while comparing.
+
+
+Examples
+
+6   >=  6  // true
+7   >= '3' // true
+2   >=  3  // false
+'7' >=  9  // false
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                Comparison with the Less Than Operator
+
+The less than operator (<) compares the values of two numbers. If the number to the left is less than the number to the right, it returns true. Otherwise, it returns false. Like the equality operator, the less than operator converts data types while comparing.
+
+Examples
+
+2   < 5 // true
+'3' < 7 // true
+5   < 5 // false
+3   < 2 // false
+'8' < 4 // false
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
+
+
+
