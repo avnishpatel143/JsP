@@ -409,3 +409,6 @@ typeof 3 returns the string number, and typeof '3' returns the string string.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+this is only for the strik and nothing
+this is only for the strik and nothing when i am at home only strick
+ 
