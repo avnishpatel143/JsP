@@ -582,7 +582,62 @@ testLogicalOr(15);
 
  // Combine the if statements into a single if/else statement.
 
-  
+ function testElse(val) {
+  let result = "";
+  // Only change code below this line
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+
+  else {
+    result = "5 or Smaller";
+  }
+
+  // Only change code above this line
+  return result;
+}
+
+testElse(4);
+
+console.log(testElse(5))   // The output wil be = 5 or Smaller
+
+
+// Convert the logic to use else if statements.
+
+function testElseIf(val) {
+  if(val > 10 ){
+    return "Greater than 10"
+  }
+  else if(val < 5) {
+    return "Smaller than 5"
+  }
+  else{
+    return "Between 5 and 10"
+  }
+  };
+
+
+  // Convert the logic to use else if statements.
+
+
+  function testElseIf(val) {
+    if(val > 10 ){
+      return "Greater than 10"
+    }
+    else if(val < 5) {
+      return "Smaller than 5"
+    }
+    else{
+      return "Between 5 and 10"
+    }
+    };
+    
+    console.log(testElseIf(100));  //The output will be = Greater than 10
+
+    
+    
+  // Change the order of logic in the function so that it will return the correct statements in all cases.
 
 
 

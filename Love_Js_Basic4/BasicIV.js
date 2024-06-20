@@ -48,4 +48,27 @@ return total;
 
 
 
- 
+ // Getter And Setter => Geter = Get the value , Setter => Set The value
+ // issue of this function it is only read function 
+
+
+ let person = {
+ name : 'Avnish',
+ fName : 'Patel',
+ age : 32,
+ Id : 420,
+//  Fruits: ['apple','graps','suje','Mango' ],
+
+ get fullName(){
+
+    return `${this.person.name} ${this.person.fName}`;
+ },
+
+set fullName(value) {
+    
+    let parts = value.split('');
+    this.name = parts[0];
+    this.Id = parts[1];
+}
+ };
+ console.log(person.fullName);
