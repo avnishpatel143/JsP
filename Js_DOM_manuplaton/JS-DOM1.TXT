@@ -1,0 +1,87 @@
+ Today {24/06/2024} we will learn JavaScript DOM- Document Object Modal 
+
+ Window is top level entity , window is also global oject  created by browser 
+
+ DOM - STAND FOR DOCUMENT OBJECT MODAL 
+
+ BOM - It allow  js talk to  browser about matter otherthan  content  of page. 
+
+  window                       DOM                       BOM (Browser oject modal)
+
+
+
+                        DOM - STAND FOR DOCUMENT OBJECT MODAL 
+ chater >> tags >> token >> nodes >> DOM .. 
+ 
+ 
+
+
+                               Access Element JavaScript 
+
+
+  Mthod of finding the element By Id   =  document.getElementById(id_name)
+
+  it is call on document Object only 
+  it return a single Object
+  
+
+   finding the element by Class Name  =   document.getElementsByClassName(className)
+     
+  finding the element By Tag Name       =      document.getElementsByTagName('TangName')
+
+  1 Things keep in Mind  both method use document 
+  2 both return multiple items 
+  3  the list return is not an Arry 
+
+
+    $0 =  ka Use karke hame select kr ke console me iquate krwa sakte hai and variable me bhe store krwa sakte hai 
+
+
+                  Accessing Element by using Query selecter 
+    
+        Eaka output hamesa single Object hota hai   
+
+        Note:- Esko Access karne ke liye ham jaise css me krte hai just like that yaha pe bhe hota hai 
+        
+          id       = '#id_name'
+         className = '.className'
+         TangName  = 'TangName'
+
+
+  let a = queryselector('#heder);
+
+
+  let b = queryselector('.heder);
+
+
+  let c = queryselector('heder);
+
+
+
+for the all classes and id tags then use it 
+
+document.querySelectorAll('.className')
+
+ 
+
+
+                           Update Existing content 
+
+                           .innerHTML  => get element/all of its decentets  // set an element HTML content
+                           .outerHTML
+                           .textContent 
+                           .innerText
+
+
+
+
+                         Adding New Element/Content :=
+
+                         .createElement();
+                         let newChild;
+                         ex > document.createElement('span');
+
+                            Adding Mthod 
+                         content.appendChild(newChild);
+                         
+            
