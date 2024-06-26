@@ -83,5 +83,15 @@ document.querySelectorAll('.className')
 
                             Adding Mthod 
                          content.appendChild(newChild);
+
+
+
+                         Remove Element  method .removeChild()
+
+                         opposite of appendChild ()
+
+                         a target element 
+                         the child to Remove 
+                         
                          
             
