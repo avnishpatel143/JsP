@@ -32,7 +32,7 @@ Contributions to this project are welcome! If you have any ideas for improvement
 Your feedback is valuable! If you encounter any issues, have suggestions for improvements, or would like to share your experience using this JavaScript Practice Playground, please don't hesitate to reach out.
 
 **Credits:**
-- [CodeMirror](https://codemirror.net/): A versatile text editor implemented in JavaScript for the browser.
+ A versatile text editor implemented in JavaScript for the browser.
 - [GitHub](https://github.com/): Hosting for version control and collaboration.
 
 **License:**
