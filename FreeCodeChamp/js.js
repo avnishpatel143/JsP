@@ -637,8 +637,7 @@ function testElseIf(val) {
 
     
     
-  // Change the order of logic in the function so that it will return the correct statements in all cases.
+ // Change the order of logic in the function so that it will return the correct statements in all cases.
 
-// Just for the strick only 
 
 
