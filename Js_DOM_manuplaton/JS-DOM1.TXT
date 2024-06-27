@@ -1,4 +1,4 @@
- Today {24/06/2024} we will learn JavaScript DOM- Document Object Modal 
+ Today {24/06/2024}       we will learn JavaScript DOM- Document Object Modal 
 
  Window is top level entity , window is also global oject  created by browser 
 
@@ -15,7 +15,7 @@
  
  
 
-
+---------------------------------------------------------------------------------------------------------------------------------
                                Access Element JavaScript 
 
 
@@ -36,6 +36,7 @@
 
     $0 =  ka Use karke hame select kr ke console me iquate krwa sakte hai and variable me bhe store krwa sakte hai 
 
+---------------------------------------------------------------------------------------------------------------------------------
 
                   Accessing Element by using Query selecter 
     
@@ -65,33 +66,49 @@ document.querySelectorAll('.className')
  
 
 
-                           Update Existing content 
-
-                           .innerHTML  => get element/all of its decentets  // set an element HTML content
-                           .outerHTML
-                           .textContent 
-                           .innerText
-
+    Update Existing content 
+    .innerHTML  => get element/all of its decentets  // set an element HTML content
+    .outerHTML
+    .textContent 
+    .innerText
 
 
+   Adding New Element/Content :=
+  .createElement();
+  let newChild;
+  ex > document.createElement('span');
+     Adding Mthod 
+  content.appendChild(newChild);
 
-                         Adding New Element/Content :=
+  Remove Element  method .removeChild()
+  opposite of appendChild ()
+  a target element 
+  the child to Remove 
+  
+---------------------------------------------------------------------------------------------------------------------------------
+ Method Adding textContent where to want to add  >>              .insertAdjaccentHTML()
 
-                         .createElement();
-                         let newChild;
-                         ex > document.createElement('span');
+                    has to be called 2 arguments 
+                    Location/Position >>> where   (beorebegin) (afterbegin) (afterend) (beofeend)
+                    HTML text/Content to be insert >> what 
 
-                            Adding Mthod 
-                         content.appendChild(newChild);
+------------------------------------------------------------------------------------------------------------------------------
+  CSS                        Style page content  (In JavaScript Using Th
+                            .style             [ syntext >> variableName.style.backgroundColor = ('red'); ]
+                              .cssText         [syntext >> style.cssText = 'color:green; background-color:yello;';]
+                              .setAttribute    [syntext >> variableName.setAttribute('style', 'color:white'); ]
+                              .className       [syntext >> variableName.]
+                              .classList       []
+
+                classList return  >> 
+                  return an arry 
+                  add()
+                  remove()
+                  toggle()    // if koi element nhe hai toh add kr dega agr hai remove kar dega 
+                  contain()  // it return ture or false 
+                             
 
 
+                             to search diff beetween method vs property  in js\
 
-                         Remove Element  method .removeChild()
-
-                         opposite of appendChild ()
-
-                         a target element 
-                         the child to Remove 
-                         
-                         
-            
+---------------------------------------------------------------------------------------------------------------------------------

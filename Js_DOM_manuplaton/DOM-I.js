@@ -1,1 +1,7 @@
-// It is only for the strick today i am feeling very low
+let mypara = document.createElement('p');
+mypara.textContent = 'I am the text content';
+content.appendChild(mypara);
+console.log(mypara);
+
+
+
