@@ -702,7 +702,7 @@ testSize(9);
 const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
 function golfScore(par, strokes) {
-  
+
   // Only change code below this line
 
 if (strokes === 1){
@@ -731,3 +731,30 @@ return names[6];
 }
 
 golfScore(5, 4);
+
+// Create an if statement inside the function to return Yes, 
+//that was true if the parameter wasThatTrue is true and return No, that was false otherwise.
+
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+if(wasThatTrue) {
+  return "Yes, that was true";
+
+} return "No, that was false";
+
+
+  // Only change code above this line
+
+}
+// Add the equality operator to the indicated line so that the function will return the 
+//string Equal when val is equivalent to 12.
+
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
