@@ -637,7 +637,97 @@ function testElseIf(val) {
 
     
     
- // Change the order of logic in the function so that it will return the correct statements in all cases.
+ // Change the order of logic in the function so that it will,
+ // return the correct statements in all cases.
+
+ function orderMyLogic(val) {
+  if (val < 10 && val > 5) {
+    return "Less than 10";
+
+  } else if (val < 5) {
+    return "Less than 5";
+
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+orderMyLogic(4);
 
 
+// Write chained if/else if statements to fulfill the following conditions:
+// num < 5 - return Tiny
+// num < 10 - return Small
+// num < 15 - return Medium
+// num < 20 - return Large
+// num >= 20 - return Huge
 
+function testSize(num) {
+  // Only change code below this line
+  if(num < 5) {
+    return 'Tiny';
+  }else if(num < 10){
+  return 'Small';
+  }else if (num < 15){
+  return 'Medium';
+  } else if(num < 20) {
+    return 'Large';
+} else if(num >= 20) {
+ return 'Huge';
+}     
+  return "Change Me";
+  // Only change code above this line
+}
+
+testSize(9);
+
+
+// Question :-
+//Your function will be passed par and strokes arguments. 
+//Return the correct string according to this table which lists the strokes in order of priority;
+// top (highest) to bottom (lowest):
+
+// Strokes	Return
+// 1	"Hole-in-one!"
+// <= par - 2	"Eagle"
+// par - 1	"Birdie"
+// par	"Par"
+// par + 1	"Bogey"
+// par + 2	"Double Bogey"
+// >= par + 3	"Go Home!"
+// par and strokes will always be numeric and positive. We have added an array 
+// of all the names for your convenience.
+
+
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+  
+  // Only change code below this line
+
+if (strokes === 1){
+return names[0];
+
+} else if (strokes <= par - 2	){
+ return names[1];
+
+}else if(strokes === par - 1){
+return names[2];
+
+}else if (strokes === par) {
+ return names[3];
+
+} else if (strokes === par + 1	){
+return names[4];
+
+}  else if (strokes ===  par + 2) {
+ return names[5];
+
+} else if (strokes >= par + 3	) {
+return names[6];
+}
+  return "Change Me";
+  // Only change code above this line
+}
+
+golfScore(5, 4);
