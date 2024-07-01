@@ -746,6 +746,7 @@ if(wasThatTrue) {
   // Only change code above this line
 
 }
+
 // Add the equality operator to the indicated line so that the function will return the 
 //string Equal when val is equivalent to 12.
 
