@@ -759,3 +759,8 @@ function testEqual(val) {
 }
 
 testEqual(10);
+ wushanghq
+
+
+
+ HTMLHRElement golfScore  golfScore  
