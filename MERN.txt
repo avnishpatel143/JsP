@@ -346,3 +346,9 @@ Credential that shoule be true
 Example const corsOption variable name must be as it is {origin:”http://localhost:<portnumber where the frontend application is running)”,Methods:”Get,Post,patch,delete”,credential:true}
    
  
+
+
+ Node is most powerful backend language and proved by developer and also frontend is the best part and aslso meanwile 
+ i am avnish patel i am from pryagraj , and currently living in delhi new ashok nagar noida 
+ and i have completed my BCA in 2024 
+ i have  one year exprence frontend developer in mobiksasa 
