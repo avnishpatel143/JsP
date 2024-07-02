@@ -760,3 +760,76 @@ function testEqual(val) {
 
 testEqual(10);
  
+//  Write a switch statement which tests val and sets answer for the following conditions:
+// conditions:
+// 1 - alpha
+// 2 - beta
+// 3 - gamma
+// 4 - delta
+
+function caseInSwitch(val) {
+  let answer = "";
+  // Only change code below this line
+   switch(val){
+     case 1:
+     answer = 'alpha';
+ break;
+  case 2 :
+      answer = 'beta';
+  break;
+      case 3: 
+             answer = 'gamma'
+      break;
+
+   case 4:
+           answer = 'delta'
+     break;          
+   }
+
+  // Only change code above this line
+  return answer;
+}
+
+caseInSwitch(1);
+
+let  result = caseInSwitch(1);   // the output will be alpha
+
+console.log(result);              // the output will be alpha
+ 
+// Write a switch statement to set answer for the following conditions:
+// a - apple
+// b - bird
+// c - cat
+// default - stuff
+
+function switchOfStuff(val) {
+  let answer = "";
+  // Only change code below this line
+  
+  switch (val) {
+   case 'a':
+   answer = 'apple';
+   break;
+
+  case 'b': 
+  answer = 'bird';
+break
+  case 'c' :
+      answer = 'cat';
+break
+
+ default:
+ answer = 'stuff'
+  }
+
+  // Only change code above this line
+  return answer;
+}
+
+switchOfStuff(1);
+
+let answer = switchOfStuff(1);
+console.log(answer);              // the output will be stuff bcz default valu set ki hai eski 
+console.log(switchOfStuff('a'));  // aise bhe console krwa sakte hai 
+
+ 
