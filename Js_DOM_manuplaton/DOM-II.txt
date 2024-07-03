@@ -16,3 +16,28 @@ When a user strokes a key
 
 
 Note:-  all Events are invisiable  by defeault , if you want to make it visible you can do from this method => moniterEvents(doucument); 
+                                                                                                         off this => UnmonitorEvent(doucument)
+
+basically Browser event are anumsment 
+
+
+Event Target => Interface (ye top leavel entity hai) implemented by object that can recive event 
+                     and may have listner for them 
+
+
+    Event Target ke Three Method hai 
+    addEventListner();
+    removeEventListner();
+    dispatchEvent();
+
+
+    pseudocode:-
+ 
+ <event.target> .addEventListner(<event-to-listn-for>,<function-to-run-when_event -happened>)
+  
+requirement for using this 
+ 
+ 1. event-target => component (doucument, tags,div, artical,video)
+ 2. event type   => e.g (click , scroll, Double click)
+ 3. function     => (define what to do when event happen)
+ 
