@@ -1,7 +1,13 @@
+document.getElementById('conetnt');
 
-let content = document.querySelectorAll('h1');
+function print (){
+    conetnt.style.background = 'green';
+  console.log('Clicked');
+};
 
-content.addEventListner('click', function(){
+conetnt.addEventListener('click', print);
 
-    content.style.background = 'red';
-});
+
+
+conetnt.removeEventListener('click',print);
+// conetnt.style.background = 'red'
