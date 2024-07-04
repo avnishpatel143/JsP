@@ -85,3 +85,10 @@ note- by default  event phase Bubbling phase me hota hai
       
 
       kya ham at target phase me laga sakte hai
+
+
+The  default Action:- 
+   
+we can stop default Action like ancor tags opens urls but we can stop it by using prventDefault()
+
+
