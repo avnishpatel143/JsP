@@ -10,3 +10,4 @@ conetnt.addEventListener('click', function(){
     conetnt.style.background = 'red';
   console.log('Clicked');
 });
+
