@@ -9,14 +9,14 @@ newElement.textContent = 'This is the Para  ' +  i;
 document.body.appendChild(newElement);
 };
 
-const t2 = performance.now();  // for the measure the code speed
+const t2 = performance.now();   // for the measure the code speed
 console.log( "this took" + (t1-t2) + "ms" );
 
 
 
 // optimising a bit 
 
-const t3 = performance.now();    // for the measure the code speed
+const t3 = performance.now();     // for the measure the code speed
 
 let myDiv = document.createElement('div');
 
@@ -29,11 +29,10 @@ for (let i=1; i<=100; i++ ){
     };
     document.body.appendChild(myDiv);
 
-    const t4 = performance.now();    // for the measure the code speed 
+    const t4 = performance.now();     // for the measure the code speed 
 
     console.log( "this took" + (t3-t4) + "ms" );   // this for the measure speed how much take time to run this code 
 
 
 
 
-    
