@@ -1,18 +1,19 @@
 /* Landing Page */
+
+
 .landing-page{
     position: relative;
     width: 1400px;
     height: 850px;
-    
     /* Background / Dark */
     background: #2F1893;
     
 }
 
 
-ul{
+ ul{
+    display: flex;
+   justify-content:space-evenly; 
+   
+ }
 
-   position: absolute;
-   justify-content: center;
-
-}
