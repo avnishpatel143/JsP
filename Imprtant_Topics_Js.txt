@@ -1,0 +1,16 @@
+These are the important topics for the Javascript you should to know.
+
+[1] Variables 
+[2] Callbacks
+[3] Arrays
+[4] Asynchronous programming 
+[5] Loops 
+[6] Promises
+[7] Closures
+[8] Javascript Syntax
+[9] Classes
+[10] Debugging
+[11] ES6 features 
+[12] Hoisting
+
+
