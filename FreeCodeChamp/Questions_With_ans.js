@@ -996,3 +996,61 @@ delete myDog.tails;    // delete is keword of js for the deleting Properties fro
 delete myDog["tails"];  // delete is keword of js for the deleting Properties from objects using [] braket  notation 
 
 
+
+// Question =>> 
+//Convert the switch statement into an object called lookup. Use it to look up val and assign 
+//the associated string to the result variable.
+// Setup
+// function phoneticLookup(val) {
+//   let result = "";
+
+//   // Only change code below this line
+//   switch(val) {
+//     case "alpha":
+//       result = "Adams";
+//       break;
+//     case "bravo":
+//       result = "Boston";
+//       break;
+//     case "charlie":
+//       result = "Chicago";
+//       break;
+//     case "delta":
+//       result = "Denver";
+//       break;
+//     case "echo":
+//       result = "Easy";
+//       break;
+//     case "foxtrot":
+//       result = "Frank";
+//   }
+
+//   // Only change code above this line
+//   return result;
+// }
+
+// phoneticLookup("charlie");
+// // Setup
+
+// Answer of this question =>>
+
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+   
+   const lookup = {
+     alpha :"Adams",
+     bravo :"Boston",
+     charlie:"Chicago",
+     delta : "Denver",
+     echo  : "Easy",
+     foxtrot:"Frank",
+   }
+   result = lookup[val];
+    
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
