@@ -956,3 +956,43 @@ myDog["name"] = "Happy Coder";  // This is the bracket Notation for the updating
 
 
 console.log(myDog)  // the output will be entire objects and their values 
+
+
+// Question => 
+  //Add a bark property to myDog and set it to a dog sound, such as "woof". 
+//You may use either dot or bracket notation.
+
+
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark    = "woof"; // Adding new properties in object using .(dot) notation
+myDog['bark'] = "woof"; // Adding new properties in object using braket notation []
+
+console.log(myDog); // the output will be entire objects 
+
+
+// Question =>> 
+//Delete the tails property from myDog. You may use either dot or bracket notation.
+
+// Answer of this question =>>
+
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+
+delete myDog.tails;    // delete is keword of js for the deleting Properties from objects using .(dot) notation 
+delete myDog["tails"];  // delete is keword of js for the deleting Properties from objects using [] braket  notation 
+
+
