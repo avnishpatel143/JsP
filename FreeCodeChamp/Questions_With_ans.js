@@ -934,3 +934,25 @@ function isLess(a, b) {
 }
 
 isLess(10, 15);
+
+
+// Question =>
+//  Update the myDog object's name property. Let's change her name from Coder to Happy Coder. 
+//You can use either dot or bracket notation.
+
+// Here are the answer of this question =>>
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name = "Happy Coder";  // this the .(dot) Notation for the changing the object from key to value
+
+myDog["name"] = "Happy Coder";  // This is the bracket Notation for the updating value of the objects using this metheod 
+
+
+console.log(myDog)  // the output will be entire objects and their values 
