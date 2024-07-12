@@ -995,4 +995,4 @@ checkForProperty({ top: 'hat', bottom: 'pants' }, 'middle'); // false
 The first checkForProperty function call returns true, while the second returns false.                                
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                   
+                                   all the changes has been added 
