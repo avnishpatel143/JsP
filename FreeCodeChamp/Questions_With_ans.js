@@ -1136,3 +1136,35 @@ const myStorage = {
 const gloveBoxContents = myStorage.car.inside["glove box"] ;
 
 console.log(gloveBoxContents); // The output will be maps
+
+ 
+
+
+// Question =>>
+// Using dot and bracket notation, set the variable secondTree to the second element
+// in the list array from the second object in the myPlants array.
+
+// Answer of this queston =>>
+
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+const secondTree = myPlants[1].list[1];
+
+console.log(secondTree); // The output will be = pine
