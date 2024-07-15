@@ -1073,4 +1073,56 @@ function checkObj(obj, checkProp) {
     return "Not Found";
   }
   // Only change code above this line
+
+  
 }
+
+
+
+// Question =>> 
+// Add a new album to the myMusic array. Add artist and title strings, release_year number, and a formats array of strings.
+
+// Answer of this question =>>
+
+
+let myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [ "CD", "8T", "LP",],
+    "gold": true
+  },
+  // added here is the new elements
+  {
+ "artist": "Sonu Nigam",
+ "title" : "Sanu ek pal",
+ "release_year": 1980,
+ "formats": [ "CD", "8T", "LP",]  
+  }
+];
+
+
+
+// Question =>> 
+//Access the myStorage object and assign the contents of the glove box property to the gloveBoxContents variable. 
+//Use dot notation for all properties where possible, otherwise use bracket notation.
+
+
+// Answer of this Question
+
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"] ;
+
+console.log(gloveBoxContents); // The output will be maps
