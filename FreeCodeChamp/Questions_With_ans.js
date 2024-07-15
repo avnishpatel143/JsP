@@ -1074,3 +1074,27 @@ function checkObj(obj, checkProp) {
   }
   // Only change code above this line
 }
+
+// Question =>>
+
+// Access the myStorage object and assign the contents of the glove box property to the gloveBoxContents variable.
+//  Use dot notation for all properties where possible, otherwise use bracket notation.
+
+
+// Answer of this question =>>
+
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"] ;
+
+console.log(gloveBoxContents); // The output will be maps
