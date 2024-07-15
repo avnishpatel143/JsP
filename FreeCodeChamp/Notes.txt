@@ -824,4 +824,206 @@ switch (val) {
 Cases for 1, 2, and 3 will all produce the same result.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
+         
+                             Replacing If Else Chains with Switch
+
+             
+             
+                  If you have many options to choose from, a switch statement can be easier
+                   to write than many chained if/else if statements. The following:
+
+if (val === 1) {
+  answer = "a";
+} else if (val === 2) {
+  answer = "b";
+} else {
+  answer = "c";
+}
+
+can be replaced with:
+
+switch (val) {
+  case 1:
+    answer = "a";
+    break;
+  case 2:
+    answer = "b";
+    break;
+  default:
+    answer = "c";
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                            Returning Boolean Values from Functions
+
+You may recall from Comparison with the Equality Operator that all comparison operators return a boolean true or false value.
+
+Sometimes people use an if/else statement to do a comparison, like this:
+
+function isEqual(a, b) {
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+But there's a better way to do this. Since === returns true or false, we can return the result of the comparison:
+
+function isEqual(a, b) {
+  return a === b;
+}
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                             Return Early Pattern for Functions
+
+When a return statement is reached, the execution of the current function stops and control returns to the calling location.
+
+Example
+
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+myFun();
+
+The above will display the string Hello in the console, and return the string World. The string byebye will never display in the console, because the function exits at the return statement.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+                                               Add New Properties to a JavaScript Object
+
+You can add new properties to existing JavaScript objects the same way you would modify them.
+
+Here's how we would add a bark property to ourDog:
+
+ourDog.bark = "bow-wow";
+or
+
+ourDog["bark"] = "bow-wow";
+Now when we evaluate ourDog.bark, we'll get his bark, bow-wow.
+
+Example:
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.bark = "bow-wow";
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                   Delete Properties from a JavaScript Object
+
+We can also delete properties from objects like this:
+
+delete ourDog.bark;
+Example:
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"],
+  "bark": "bow-wow"
+};
+
+delete ourDog.bark;
+After the last line shown above, ourDog looks like:
+
+{
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                             Using Objects for Lookups
+
+Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, 
+you can use an object to lookup values rather than a switch statement or an if/else chain. 
+This is most useful when you know that your input data is limited to a certain range.
+
+Here is an example of an article object:
+
+const article = {
+  "title": "How to create objects in JavaScript",
+  "link": "https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/",
+  "author": "Kaashan Hussain",
+  "language": "JavaScript",
+  "tags": "TECHNOLOGY",
+  "createdAt": "NOVEMBER 28, 2018"
+};
+
+const articleAuthor = article["author"];
+const articleLink = article["link"];
+
+const value = "title";
+const valueLookup = article[value];
+articleAuthor is the string Kaashan Hussain, articleLink is the string https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/, and valueLookup is the string How to create objects in JavaScript.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                      
+                                       Testing Objects for Properties
+To check if a property on a given object exists or not, you can use the .hasOwnProperty() method. 
+someObject.hasOwnProperty(someProperty) returns true or false depending on if the property is found on the object or not.
+
+Example
+
+function checkForProperty(object, property) {
+  return object.hasOwnProperty(property);
+}
+
+checkForProperty({ top: 'hat', bottom: 'pants' }, 'top'); // true
+checkForProperty({ top: 'hat', bottom: 'pants' }, 'middle'); // false
+The first checkForProperty function call returns true, while the second returns false.                                
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                           
+                                             Manipulating Complex Objects
+
+
+Sometimes you may want to store data in a flexible Data Structure. A JavaScript object is one way to handle flexible data. 
+They allow for arbitrary combinations of strings, numbers, booleans, arrays, functions, and objects.
+
+Here's an example of a complex data structure:
+
+const ourMusic = [
+  {
+    "artist": "Daft Punk",
+    "title": "Homework",
+    "release_year": 1997,
+    "formats": [ 
+      "CD", 
+      "Cassette", 
+      "LP"
+    ],
+    "gold": true
+  }
+];
+This is an array which contains one object inside. The object has various pieces of metadata about an album.
+ It also has a nested formats array. If you want to add more album records, you can do this by adding records to the top level array.
+  Objects hold data in a property, which has a key-value format. In the example above,
+   "artist": "Daft Punk" is a property that has a key of artist and a value of Daft Punk.
+
+Note: You will need to place a comma after every object in the array, unless it is the last object in the array.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

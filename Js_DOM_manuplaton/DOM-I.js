@@ -6,8 +6,14 @@
 
 document.getElementById('conetnt');
 
-conetnt.addEventListener('click', function(){
-    conetnt.style.background = 'red';
+function print (){
+    conetnt.style.background = 'green';
   console.log('Clicked');
-});
+};
 
+conetnt.addEventListener('click', print);
+
+
+
+conetnt.removeEventListener('click',print);
+// conetnt.style.background = 'red'

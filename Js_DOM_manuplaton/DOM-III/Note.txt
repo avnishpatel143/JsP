@@ -1,0 +1,15 @@
+Performance:-
+               Measure speed of code 
+             how to write efficiant & Perfing co
+
+             stanred way to Measure how  long your code take to run => performance.now()
+
+Reflow:- Jb bhe koi bhe naya element dalte hai , toh kuch calculations hote hai ess calculations ko Reflow bolte hai 
+Repaint:- After calculations pixcel by rendring on UI usko Repaint bolte hai 
+
+
+Note:- Try to less use of Repaint and Reflow for the code performance and best practice when go for the coding 
+
+
+Document Fragment :- It is a lite weight Document object , 
+ispe koi bhe tags use kar sakte issme na koi Reflow and Repaint hot 

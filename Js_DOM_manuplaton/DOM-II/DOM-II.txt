@@ -25,10 +25,10 @@ Event Target => Interface (ye top leavel entity hai) implemented by object that 
                      and may have listner for them 
 
 
-    Event Target ke Three Method hai 
-    addEventListner();
-    removeEventListner();
-    dispatchEvent();
+1    Event Target ke Three Method hai 
+2    addEventListner();
+3    removeEventListner();
+4    dispatchEvent();
 
 
     pseudocode:-
@@ -41,3 +41,54 @@ requirement for using this
  2. event type   => e.g (click , scroll, Double click)
  3. function     => (define what to do when event happen)
  
+ Examples :-
+          let a = doucument.getElementById('h1');
+
+          a.addEventListner('click', function (){
+          
+         a.style.background = 'red';
+                
+        console.log("I have clicks on that")
+          });
+
+
+
+removeEventListner :- 
+
+1. same  event target
+2. same event type 
+3. same function
+
+
+
+Examples:- 
+                 
+   function print (){
+    conetnt.style.background = 'green';
+  console.log('Clicked');
+};
+conetnt.addEventListener('click', print);
+
+conetnt.removeEventListener('click',print);
+
+
+
+
+Phase of Events:-
+
+1 Captrition Phase
+2 At Target Phase
+3 Bubbling Phase
+
+note- by default  event phase Bubbling phase me hota hai 
+
+      
+
+      kya ham at target phase me laga sakte hai
+
+
+The  default Action:- 
+   
+we can stop default Action like ancor tags opens urls but we can stop it by using prventDefault()
+
+

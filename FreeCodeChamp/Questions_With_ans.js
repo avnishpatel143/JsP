@@ -129,7 +129,7 @@ console.log(myArray4);
 
 // Use the .pop() function to remove the last item from myArray and assign the popped off value to a new variable, removedFromMyArray.
 
-// Setup
+// Setup 
 const myArray6 = [["John", 23], ["cat", 2]];
 
 // Only change code below this line
@@ -833,3 +833,244 @@ console.log(answer);              // the output will be stuff bcz default valu s
 console.log(switchOfStuff('a'));  // aise bhe console krwa sakte hai 
 
  
+
+
+/* Write a switch statement to set answer for the following ranges:
+1-3 - Low
+4-6 - Mid
+7-9 - High
+
+Note: You will need to have a case statement for each number in the range. */
+
+// This the answer 
+
+function sequentialSizes(val) {
+  let answer = "";
+   // Only change code below this line
+    switch (val){
+      case 1:
+      case 2:
+      case 3:  
+   
+    answer = "Low";
+   break;
+      case 4:
+      case 5:
+      case 6:
+ answer = "Mid";  
+ break;
+    case 7:
+    case 8:
+    case 9:
+ 
+  answer = "High"; 
+   }
+  // Only change code above this line
+  return answer;
+};
+
+sequentialSizes(1);
+
+let a = sequentialSizes(1)  
+
+console.log(a);  // the output will be Low 
+
+
+
+//Change the chained if/else if statements into a switch statement.
+
+function chainToSwitch(val) {
+  let answer = "";
+  // Only change code below this line
+
+  switch (val){
+  case "bob":
+     answer ="Marley"; 
+     break;
+  case 42:
+     answer = "The Answer";
+     break;
+  case 1:
+    answer ="There is no #1";
+    break;
+  case 99:
+    answer = "Missed me by this much!";
+    break;
+  case 7:
+  answer = "Ate Nine"
+ }
+  // Only change code above this line
+  return answer;
+}
+
+chainToSwitch(7);
+
+
+
+
+// Fix the function isLess to remove the if/else statements.
+
+
+// Before =>>>>
+function isLess(a, b) {
+  // Only change code below this line
+  if (a < b) {
+    return true;
+  } else {
+    return false;
+  }
+  // Only change code above this line
+}
+
+isLess(10, 15);
+
+// After=>>
+function isLess(a, b) {
+  // Only change code below this line
+
+    return a <= b;
+
+  // Only change code above this line
+}
+
+isLess(10, 15);
+
+
+// Question =>
+//  Update the myDog object's name property. Let's change her name from Coder to Happy Coder. 
+//You can use either dot or bracket notation.
+
+// Here are the answer of this question =>>
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name = "Happy Coder";  // this the .(dot) Notation for the changing the object from key to value
+
+myDog["name"] = "Happy Coder";  // This is the bracket Notation for the updating value of the objects using this metheod 
+
+
+console.log(myDog)  // the output will be entire objects and their values 
+
+
+// Question => 
+  //Add a bark property to myDog and set it to a dog sound, such as "woof". 
+//You may use either dot or bracket notation.
+
+
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark    = "woof"; // Adding new properties in object using .(dot) notation
+myDog['bark'] = "woof"; // Adding new properties in object using braket notation []
+
+console.log(myDog); // the output will be entire objects 
+
+
+// Question =>> 
+//Delete the tails property from myDog. You may use either dot or bracket notation.
+
+// Answer of this question =>>
+
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+
+delete myDog.tails;    // delete is keword of js for the deleting Properties from objects using .(dot) notation 
+delete myDog["tails"];  // delete is keword of js for the deleting Properties from objects using [] braket  notation 
+
+
+
+// Question =>> 
+//Convert the switch statement into an object called lookup. Use it to look up val and assign 
+//the associated string to the result variable.
+// Setup
+// function phoneticLookup(val) {
+//   let result = "";
+
+//   // Only change code below this line
+//   switch(val) {
+//     case "alpha":
+//       result = "Adams";
+//       break;
+//     case "bravo":
+//       result = "Boston";
+//       break;
+//     case "charlie":
+//       result = "Chicago";
+//       break;
+//     case "delta":
+//       result = "Denver";
+//       break;
+//     case "echo":
+//       result = "Easy";
+//       break;
+//     case "foxtrot":
+//       result = "Frank";
+//   }
+
+//   // Only change code above this line
+//   return result;
+// }
+
+// phoneticLookup("charlie");
+// // Setup
+
+// Answer of this question =>>
+
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+   
+   const lookup = {
+     alpha :"Adams",
+     bravo :"Boston",
+     charlie:"Chicago",
+     delta : "Denver",
+     echo  : "Easy",
+     foxtrot:"Frank",
+   }
+   result = lookup[val];
+    
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
+
+
+// Question =>>
+//Modify the function checkObj to test if the object passed to the function parameter obj contains the
+// specific property passed to the function parameter checkProp. If the property passed to checkProp is found on obj, 
+//return that property's value. If not, return Not Found.
+
+
+//Answer =>>
+
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  if (obj.hasOwnProperty(checkProp)){
+
+   return obj[checkProp];    
+  }else {
+    return "Not Found";
+  }
+  // Only change code above this line
+}
