@@ -1137,9 +1137,7 @@ const gloveBoxContents = myStorage.car.inside["glove box"] ;
 
 console.log(gloveBoxContents); // The output will be maps
 
-    
-
-
+  
 // Question =>>
 // Using dot and bracket notation, set the variable secondTree to the second element
 // in the list array from the second object in the myPlants array.
