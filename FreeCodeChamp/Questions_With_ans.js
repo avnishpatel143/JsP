@@ -1166,3 +1166,72 @@ const myPlants = [
 const secondTree = myPlants[1].list[1];
 
 console.log(secondTree); // The output will be = pine
+
+
+
+// The Question Add the numbers 5 through 0 (inclusive) in descending order to myArray using a while loop.
+
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+let i = 5;
+
+while(i >= 0 ){
+
+    myArray.push(i);
+  i--;
+  
+}
+console.log(myArray)  //The output will be =  [ 5, 4, 3, 2, 1, 0 ]
+
+
+
+// Question => Use a for loop to push the values 1 through 5 onto myArray.
+
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for (let i = 1; i < 6; i++){
+
+  myArray.push(i);
+}
+console.log(myArray) // the output will be [ 1, 2, 3, 4, 5 ]
+
+
+
+// Question =>> Push the odd numbers from 1 through 9 to myArray using a for loop.
+
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for (let i = 1; i<10; i +=2){
+  myArray.push(i);
+}
+
+console.log(myArray) // The output will be [ 1, 3, 5, 7, 9 ]
+
+
+
+
+//  Question =>> Push the odd numbers from 9 through 1 to myArray using a for loop.
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for(let i = 9; i > 0; i -= 2 ){
+  myArray.push(i);
+}
+
+console.log(myArray);   // The output will be [ 9, 7, 5, 3, 1 ]
+
