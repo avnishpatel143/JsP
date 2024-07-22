@@ -1213,13 +1213,12 @@ const myArray = [];
 
 // Only change code below this line
 
-for (let i = 1; i<10; i +=2){
+for (let i = 1; i<10; i +=2){                     
   myArray.push(i);
 }
 
 console.log(myArray) // The output will be [ 1, 3, 5, 7, 9 ]
-
-
+   
 
 
 //  Question =>> Push the odd numbers from 9 through 1 to myArray using a for loop.
@@ -1234,4 +1233,6 @@ for(let i = 9; i > 0; i -= 2 ){
 }
 
 console.log(myArray);   // The output will be [ 9, 7, 5, 3, 1 ]
+
+
 

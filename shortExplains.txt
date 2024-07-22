@@ -1,0 +1,108 @@
+
+                      JavaScript Cheatsheet
+--------------------------------------------------------------------------------------------------------------
+
+· Variables: Store data values.
+
+· Functions: Reusable blocks of code.
+
+. Objects: Collections of key-value pairs.
+
+· Arrays: Ordered lists of items.
+
+. Loops: Repeat actions multiple times.
+
+. Conditionals: Make decisions in code.
+
+. ES6: New JavaScript features.
+
+. Arrow Functions: Shorter function syntax.
+
+. Promises: Handle asynchronous operations.
+
+· Async/Await: Syntactic sugar for promises.
+
+. DOM: Interface to interact with HTML elements.
+
+. Event Listeners: React to user actions.
+
+. Hoisting: Variable and function declarations moved to the top. 
+
+. Closures: Functions with preserved scope.
+
+. Scope: Access to variables and functions.
+
+. Callbacks: Functions passed as arguments.
+
+. IIFE: Functions that execute immediately.
+
+· Prototype: Mechanism for object inheritance
+
+. Classes: Blueprint for creating objects.
+
+· Modules: Reusable code units.
+
+· Spread Operator: Expand arrays or objects.
+
+· Destructuring: Extract values from arrays or objects.
+
+· Template Literals: String interpolation with backticks.
+
+· Type Coercion: Automatic type conversion.
+
+· Strict Mode: Enforce stricter parsing and error handling
+
+
+------------------------------------------------------------------Part-II--------------------------------------------
+
+.   Map: Object with key-value pairs.
+
+·   Set: Collection of unique values.
+
+.   WeakMap: Map with weakly held keys
+
+·   WeakSet: Set with weakly held values.
+
+·   Symbol: Unique and immutable data type.
+
+.   Generators: Functions that can be paused and resumed.
+
+·   Proxy: Custom behavior for basic operationspperupdates.com
+
+·   Reflect: Methods to interact with JavaScript objects.
+
+·   JSON: Format for storing and transporting data.
+
+.   Fetch API: Modern way to make HTTP requests.
+
+.   LocalStorage: Store data in the browser.
+
+.   SessionStorage: Temporary storage in the browser.
+
+.   Web Workers: Run scripts in background threads.
+
+·   Promise.all: Wait for multiple promises.
+
+.   Promise.race: Resolve with the first settled promise.
+
+·   BigInt: Large integer representation.
+
+.   Nullish Coalescing: Handle null or undefined values.
+
+·   Optional Chaining: Safe access to nested properties.
+
+·   Intl: Internationalization API.
+
+·   Error Handling: Manage errors in code.
+
+.   Event Bubbling: Event propagation through DOM.
+
+.   Debouncing: Limit the rate of function execution.
+
+.   Throttling: Ensure function execution at set intervals.
+
+·   Memoization: Optimize function performance.
+
+·   Garbage Collection: Automatic memory management.
+
+
