@@ -40,7 +40,7 @@
 
 . Classes: Blueprint for creating objects.
 
-· Modules: Reusable code units.
+· Modules: Reusable code units.   
 
 · Spread Operator: Expand arrays or objects.
 
