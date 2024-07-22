@@ -105,4 +105,24 @@
 
 ·   Garbage Collection: Automatic memory management.
 
+---------------------------------------------------------------------------------------------------------------------------
 
+                                important Topics 
+---------------------------------------------------------------------------------------------------------------------------
+
+[2]  Callbacks                                                            
+[3]  Arrays                                         
+[4]  Asynchronous programming                                         
+[5]  Loops                                         
+[6]  Promises                                         
+[7]  Closures                                         
+[8]  JavaScript Syntax                                          
+[1]  Variable                                                              
+[9]  Classes                                         
+[10] Debugging                                         
+[11] ES6 features                                         
+[12] Hoisting                                         
+ 
+
+
+ 
