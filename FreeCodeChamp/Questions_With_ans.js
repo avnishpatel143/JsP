@@ -1278,7 +1278,7 @@ let i = 10;
 do {
   myArray.push(i);
   i++;
-}while(i < 5);
+}while(i < 5);   
 
  console.log(myArray);   // The output will be = 10 because  we our first statement is do so  and then our second statement are while  it is also false value 
  console.log(i)          // The output will be =11 because  in first statement we have used post increment i++ so
