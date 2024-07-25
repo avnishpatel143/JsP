@@ -1262,3 +1262,27 @@ function multiplyAll(arr) {
 
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]); 
   
+
+
+
+
+//Question Change the while loop in the code to a do...while loop so the loop will push only the number 10 to myArray, 
+//and i will be equal to 11 when your code has finished running.
+
+
+// Setup
+const myArray = [];
+let i = 10;
+
+// Only change code below this line
+do {
+  myArray.push(i);
+  i++;
+}while(i < 5);
+
+ console.log(myArray);   // The output will be = 10 because  we our first statement is do so  and then our second statement are while  it is also false value 
+ console.log(i)          // The output will be =11 because  in first statement we have used post increment i++ so
+
+
+
+
