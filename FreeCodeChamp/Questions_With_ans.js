@@ -1372,3 +1372,65 @@ function lookUpProfile(name, prop) {
 
 
 lookUpProfile("Akira", "likes");
+
+
+// Question  Change randomFraction to return a random number instead of returning 0.
+
+
+
+
+//Answer \
+
+function randomFraction() {
+
+  // Only change code below this line
+  return Math.random();
+
+  // Only change code above this line
+}
+
+
+console.log(randomFraction());
+
+
+
+
+// Question =>>
+// Use this technique to generate and return a random whole number in the range from 0 to 9.
+
+
+//Answer  =>>
+
+function randomWholeNum() {
+
+  return Math.floor(Math.random() *10);
+   
+}
+
+ console.log(randomWholeNum()); // The output will be dynamicly chageing per reload page
+
+// Question ==>> 
+//Create a function called randomRange that takes a range myMin and myMax and returns a random whole number that's greater than or equal to myMin and less than or equal to myMax.
+
+
+function randomRange(myMin, myMax) {
+
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+}
+
+console.log(randomRange(10, 20))   // The output will be a number between 20 to 10
+
+
+
+// Question +>> Use parseInt() in the convertToInteger function so it converts the input string str into an integer, and returns it.
+
+function convertToInteger(str) {
+
+  return parseInt(str);
+ }
+ 
+ convertToInteger("57");
+ 
+ 
+ 
+"terminal.integrated.tabs.title": "${sequence}"
