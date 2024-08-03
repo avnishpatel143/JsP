@@ -19,6 +19,7 @@ This JavaScript Practice Playground is designed for honing your skills in JavaSc
 
 2. **Open in Browser:** Navigate to the project directory and open `index.html` in your preferred web browser.
 
+ Fir the Strike 
 3. **Start Coding:** Begin writing JavaScript code in the code editor. As you type, the live preview will update in real-time, allowing you to see the results of your code immediately.
 
 4. **Experiment:** Feel free to experiment with different JavaScript concepts, try out new techniques, or tackle coding challenges.
