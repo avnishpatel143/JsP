@@ -4,7 +4,7 @@
 This JavaScript Practice Playground is designed for honing your skills in JavaScript programming. Whether you're a beginner looking to grasp the fundamentals or an experienced developer aiming to refine your techniques, this project provides a space to experiment, learn, and grow.
 
 **Features:**
-- **Code Editor:** An integrated code editor powered by [CodeMirror](https://codemirror.net/) enables you to write and edit JavaScript code effortlessly.
+- **Code Editor:** An integrated code editor powered by (https://codemirror.net/) enables you to write and edit JavaScript code effortlessly.
 - **Live Preview:** Instantly see the output of your code in the browser window adjacent to the code editor.
 - **Syntax Highlighting:** Code highlighting makes it easier to identify elements of your code, improving readability and understanding.
 - **Error Reporting:** Receive immediate feedback on errors in your code, helping you to debug effectively.
