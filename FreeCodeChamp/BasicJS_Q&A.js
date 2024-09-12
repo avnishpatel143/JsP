@@ -119,7 +119,7 @@ console.log(myData);  //The output will be =  50
 // Push ["dog", 3] onto the end of the myArray variable.
 
 
-  // Setup
+  // Setup        
 const myArray4 = [["John", 23], ["cat", 2]];
 
 // Only change code below this line
@@ -262,6 +262,8 @@ but this will not cause the tests to fail.*/
 
 function myLocalScope() {
   // Only change code below this line
+
+
   let myVar;
   
 
@@ -1506,6 +1508,7 @@ function countdown(n){
   }
 }
 console.log(countdown(18));
+
 // Only change code above this line
 
 
@@ -1531,4 +1534,3 @@ function rangeOfNumbers(startNum, endNum) {
     return number;
   }
 };
-
