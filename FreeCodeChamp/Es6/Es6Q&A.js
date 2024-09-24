@@ -191,3 +191,95 @@ const bicycle = {
 // Only change code above this line
 bicycle.setGear(3);
 console.log(bicycle.gear);
+
+
+
+// Question =>> 
+// Use the class keyword to create a Thermostat class. The constructor accepts a Fahrenheit temperature.
+
+// In the class, create a getter to obtain the temperature in Celsius and a setter that accepts a temperature in Celsius.
+
+// Remember that C = 5/9 * (F - 32) and F = C * 9.0 / 5 + 32, where F is the value of temperature in Fahrenheit, and C is the value of the same temperature in Celsius.
+
+// Note: When you implement this, you will track the temperature inside the class in one scale, either Fahrenheit or Celsius.
+
+// This is the power of a getter and a setter. You are creating an API for another user, who can get the correct result regardless of which one you track.
+
+// In other words, you are abstracting implementation details from the user.
+
+
+// Answer =>>
+
+// Only change code below this line
+class Thermostat {
+  constructor(fahrenheit) {
+    this._fahrenheit = fahrenheit;
+  }
+  
+  get temperature() {
+    return (5 / 9) * (this._fahrenheit - 32);
+  }
+  
+  set temperature(celsius) {
+    return this._fahrenheit = (celsius * 9.0) / 5 + 32;
+  }
+}
+// Only change code above this line
+
+const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+let temp = thermos.temperature; // 24.44 in Celsius
+thermos.temperature = 26;
+temp = thermos.temperature; // 26 in Celsius
+
+
+// Question 
+//Add a script to the HTML document of type module and give it the source file of index.js
+<html>
+  <body>
+    {/* <!-- Only change code below this line --> */}
+  <script type="module" src="index.js"> </script>
+    {/* <!-- Only change code above this line --> */}
+  </body>
+</html>
+
+
+// Question 
+//There are two string-related functions in the editor. Export both of them using the method of your choice.
+
+// Answer 
+
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+
+
+export { uppercaseString , lowercaseString}
+
+
+// Question >>
+// Add the appropriate import statement that will allow the current file to use the uppercaseString and lowercaseString functions you exported in the previous lesson. These functions are in a file called string_functions.js, which is in the same directory as the current file.
+
+
+// Answer>>
+//   import {uppercaseString,lowercaseString}  from './string_functions.js';
+  
+// Only change code above this line
+
+uppercaseString("hello");
+lowercaseString("WORLD!");
+
+
+// Question >>
+
+//The code in this file requires the contents of the file: string_functions.js, 
+//that is in the same directory as the current file. Use the import * as syntax to import everything from the file into an object called stringFunctions.
+
+import * as stringFunctions from "./string_functions.js";
+// Only change code above this line
+
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
