@@ -283,3 +283,35 @@ import * as stringFunctions from "./string_functions.js";
 
 stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
+
+
+// Question +>>
+// The following function should be the fallback value for the module. Please add the necessary code to do so.
+
+function subtract(x, y) {
+  return x - y;
+}
+
+ export default function (x,y){
+   return x - y;
+ }
+
+
+ // Question =>>
+ // In the following code, import the default export from the math_functions.js file, found in the same directory as this file. Give the import the name subtract.
+
+// Answer 
+import subtract from "./math_functions.js";
+// Only change code above this line
+
+subtract(7,4);
+
+
+// question >>
+
+// Create a new promise called makeServerRequest. Pass in a function with resolve and reject parameters to the constructor.
+
+// Answer 
+const makeServerRequest = new Promise((resolve, reject ) => {
+
+});
