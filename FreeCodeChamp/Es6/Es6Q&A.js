@@ -319,7 +319,7 @@ const makeServerRequest = new Promise((resolve, reject ) => {
 
 // Question >>
 //Make the promise handle success and failure. If responseFromServer is true, call the resolve method to successfully complete the promise.
-// Pass resolve a string with the value We got the data. If responseFromServer is false, use the reject method instead and pass it the string: Data not received.
+        // Pass resolve a string with the value We got the data. If responseFromServer is false, use the reject method instead and pass it the string: Data not received.
 
 
 // Answer =>>
@@ -333,4 +333,49 @@ const makeServerRequest2 = new Promise((resolve, reject) => {
     reject("Data not received");
   }
 });
+
+
+// Question =>>
+//Add the then method to your promise. Use result as the parameter of its callback function and log result to the console.
+// Answer ==>>
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to true to represent a successful response from a server
+  let responseFromServer = true;
+
+    makeServerRequest.then(result =>{
+    console.log(result)
+
+    });
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+
+// Queston =>>
+// Add the catch method to your promise. Use error as the parameter of its callback function and log error to the console.
+// Answer =..
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to false to represent an unsuccessful response from a server
+  let responseFromServer = false;
+    makeServerRequest.catch(error =>{   // Added lines by me
+
+    })                        // Added lines by me
+    console.log(error);       // Added lines by me
+     
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then(result => {
+  console.log(result);
+});
+
+
 

@@ -1,5 +1,5 @@
 
-||                                 JavaScript                    ES6     ||
+                   ||                                 JavaScript                    ES6     ||
 
 ECMAScript, or ES, is a standardized version of JavaScript. Because all major browsers follow this specification,
  the terms ECMAScript and JavaScript are interchangeable.
@@ -13,7 +13,7 @@ you'll learn these new features, including arrow functions, destructuring, class
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                    Use the Rest Parameter with Function Parameters
+                                     Use the Rest Parameter with Function Parameters
 
 In order to help us create more flexible functions, ES6 introduces the rest parameter for function parameters. With the rest parameter, 
 you can create functions that take a variable number of arguments. These arguments are stored in an array that can be accessed later from inside the function.
@@ -59,7 +59,7 @@ const spreaded = ...arr;
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-                           Use Destructuring Assignment to Extract Values from Objects
+                                          Use Destructuring Assignment to Extract Values from Objects
 
 Destructuring assignment is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
 
@@ -83,7 +83,7 @@ You can extract as many or few values from the object as you want.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 
-                Use Destructuring Assignment to Extract Values from Objects
+                                      Use Destructuring Assignment to Extract Values from Objects
 
 Destructuring assignment is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
 
@@ -107,7 +107,7 @@ You can extract as many or few values from the object as you want
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                               Use Destructuring Assignment to Assign Variables from Objects
+                                           Use Destructuring Assignment to Assign Variables from Objects
 
 Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.
 
@@ -122,7 +122,7 @@ You may read it as "get the value of user.name and assign it to a new variable n
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                           Use Destructuring Assignment to Assign Variables from Nested Objects
+                             Use Destructuring Assignment to Assign Variables from Nested Objects
                           
 You can use the same principles from the previous two lessons to destructure values from nested objects.
 
@@ -143,7 +143,7 @@ const { johnDoe: { age: userAge, email: userEmail }} = user
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                Use Destructuring Assignment to Assign Variables from Nested Objects
+                                    Use Destructuring Assignment to Assign Variables from Nested Objects
           
 You can use the same principles from the previous two lessons to destructure values from nested objects.
 
@@ -189,7 +189,7 @@ The console will display the values of a, b, and c as 1, 2, 5.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                           Destructuring via rest elements
+                                                      Destructuring via rest elements
 
 In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
 
@@ -263,7 +263,7 @@ Use an iterator method (any kind of loop) to get the desired output (shown below
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                              Write Concise Object Literal Declarations Using Object Property Shorthand
+                                             Write Concise Object Literal Declarations Using Object Property Shorthand
 
 
 ES6 adds some nice support for easily defining object literals.
@@ -281,7 +281,7 @@ const getMousePosition = (x, y) => ({ x, y });
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                              Write Concise Declarative Functions with ES6
+                                                       Write Concise Declarative Functions with ES6
 
 When defining functions within objects in ES5, we have to use the keyword function as follows:
 
@@ -361,7 +361,7 @@ Note: It is convention to precede the name of a private variable with an undersc
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                              
-                                             Create a Module Script
+                                                               Create a Module Script
 
 JavaScript started with a small role to play on an otherwise mostly HTML web.
  Today, it’s huge, and some websites are built almost entirely with JavaScript. 
@@ -374,7 +374,7 @@ JavaScript started with a small role to play on an otherwise mostly HTML web.
 <script type="module" src="filename.js"></script>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                              Reuse JavaScript Code Using import
+                                                            Reuse JavaScript Code Using import
 
 
 import allows you to choose which parts of a file or module to load. In the previous lesson, the examples exported add from the math_functions.js file. Here's how you can import it to use in another file:
@@ -388,7 +388,7 @@ You can import more than one item from the file by adding them in the import sta
 import { add, subtract } from './math_functions.js';
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                       Use * to Import Everything from a File
+                                                            Use * to Import Everything from a File
 
 
 Suppose you have a file and you wish to import all of its contents into the current file. This can be done with the import * as syntax. Here's an example where the contents of a file named math_functions.js are imported into a file in the same directory:
@@ -401,8 +401,8 @@ myMathModule.add(2,3);
 myMathModule.subtract(5,3);
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                       Create an Export Fallback with export default
-
+                                                      Create an Export Fallback with export default
+   
 In the export lesson, you learned about the syntax referred to as a named export. This allowed you to make multiple functions and variables available for use in other files.
 
 There is another export syntax you need to know, known as export default. Usually you will use this syntax if only one value is being exported from a file. It is also used to create a fallback value for a file or module.
@@ -420,7 +420,7 @@ The first is a named function, and the second is an anonymous function.
 
 Since export default is used to declare a fallback value for a module or file, you can only have one value be a default export in each module or file. Additionally, you cannot use export default with var, let, or const
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                  Import a Default Export
+                                                             Import a Default Export
 
 In the last challenge, you learned about export default and its uses. To import a default export, you need to use a different import syntax. In the following example,
  add is the default export of the math_functions.js file. Here is how to import it:
@@ -430,7 +430,7 @@ The syntax differs in one key place. The imported value, add, is not surrounded 
 You can use any name here when importing a default.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                   Create a JavaScript Promise
+                                                              Create a JavaScript Promise
 
 A promise in JavaScript is exactly what it sounds like - you use it to make a promise to do something, usually asynchronously. When the task completes, you either fulfill your promise or fail to do so. Promise is a constructor function, so you need to use the new keyword to create one. It takes a function, as its argument, with two parameters - resolve and reject. These are methods used to determine the outcome of the promise. The syntax looks like this:
 
@@ -441,7 +441,7 @@ const myPromise = new Promise((resolve, reject) => {
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                                     Complete a Promise with resolve and reject
+                                                            Complete a Promise with resolve and reject
 
 A promise has three states: pending, fulfilled, and rejected. The promise you created in the last challenge is forever stuck in the pending state because you did not add a way to complete the promise. The resolve and reject parameters given to the promise argument are used to do this. resolve is used when you want your promise to succeed, and reject is used when you want it to fail. These are methods that take an argument, as seen below.
 
@@ -452,4 +452,35 @@ const myPromise = new Promise((resolve, reject) => {
     reject("Promise was rejected");
   }
 });
-The example above uses strings for the argument of these functions, but it can really be anything. Often, it might be an object, that you would use data from, to put on your website or elsewhere.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                            Handle a Fulfilled Promise with then
+
+ Promises are most useful when you have a process that takes an unknown amount of time in your code (i.e. something asynchronous), 
+ often a server request. When you make a server request it takes some amount of time,
+  and after it completes you usually want to do something with the response from the server.
+   This can be achieved by using the then method.  
+
+   Promise.prototype.then(onFulfilled, onRejected)
+
+The then method schedules callback functions for the eventual completion of a Promise - either fulfillment or rejection. 
+One of the onFulfilled and onRejected handlers will be executed to handle the current promise's fulfillment or rejection. 
+When the promise is fulfilled with resolve the onFulfilled handler is called.
+
+myPromise.then(result => {
+  
+});
+result comes from the argument given to the resolve method.                                                         
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                                        Handle a Rejected Promise with catch
+
+catch is the method used when your promise has been rejected. It is executed immediately after a promise's reject method is called. Here’s the syntax:
+
+myPromise.catch(error => {
+  
+});
+error is the argument passed in to the reject method.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
