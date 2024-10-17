@@ -1,7 +1,7 @@
 document.getElementById('conetnt');
 
 function print (){
-    conetnt.style.background = 'green';
+ onetnt.style.background = 'green';
   console.log('Clicked');
 };
 
